@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+h1, p {
+    font-size: 1em;
+}
+h1 {
+    margin: 2em 0 -.2em;
+    font-family: 'Seymour One', sans-serif;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1em;
+    margin-top: 2em;
+}
+.card {
+    background-color: #eeeeee;
+    padding: 1.7em;
+}
+blockquote {
+    margin: 0;
+}
+span {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+cite {
+    font-style: normal;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.4em;
+}
+
+/* Improvements */
+
+h1, p, blockquote p, cite {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 2em;
+}
+
+blockquote p {
+    line-height: 1.5em;
+}
+
+cite {
+    font-size: .7em;
+    font-weight: bold;
+    color: #373737;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #309D67;
+    padding: .4em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card {
+    background: white;
+    border-radius: 1em;
+    padding: 2.3em;
+    text-align: center;
+}
+
+svg {
+    width: 5em;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.card p {
+    font-size: .85em;
+    color: #474747;
+}
+
+a {
+
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5em;
+    font-size: .8em;
+}
+.obligation {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/*
+
+    Your fixes below:
+    
+    Use the following properties and rulesets
+    to improve the visual hierarchy of this
+    design
+    
+*/
+
+body {
+    padding: auto;
+}
+
+svg {
+    width: 5em;
+}
+
+h1 {
+    font-size: auto;
+    font-weight: auto;
+}
+
+.card p {
+    font-size: auto;
+    line-height: auto;
+    color: auto;
+}
+
+a {
+    background: auto;
+    padding: auto;
+    margin-top: auto;
+}
+
